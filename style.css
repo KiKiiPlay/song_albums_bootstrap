@@ -212,6 +212,16 @@ nav img {
   padding-left: 20px;
 }
 
+.containers {
+  height: 300px;
+}
+
+.img_size img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
 @media only screen and (max-width: 576px) {
   .jumbotron {
     height: 400px;
