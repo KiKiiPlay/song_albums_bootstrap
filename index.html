@@ -30,7 +30,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto">
+        <ul class="navbar-nav ml-auto">
           <!-- <li class="nav-item active">
             <a id="home_button" class="nav-link" href="./index.html"
               >Home <span class="sr-only">(current)</span></a
@@ -48,7 +48,7 @@
               Dropdown
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="./fav_albums.html"
+              <a class="dropdown-item" href="#hall_of_shame"
                 >My favourite albums</a
               >
               <div class="dropdown-divider"></div>
@@ -59,7 +59,11 @@
       </div>
     </nav>
 
-    <div class="jumbotron fade-in"></div>
+    <div
+      class="jumbotron fade-in d-flex justify-content-center align-items-center"
+    >
+      <img src="./assets/Rammstein_logo_3.svg.png" alt="..." />
+    </div>
 
     <div class="container my-5">
       <h2>My favourite albums</h2>
@@ -76,10 +80,22 @@
               <p class="card-text">Rammstein</p>
               <p>Metal</p>
               <p>Duration: 44 minutes</p>
-              <a href="#" class="btn btn-primary">Review</a>
+              <p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseExample1"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Review
+                </button>
+              </p>
             </div>
           </div>
         </div>
+
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card mb-3">
             <img
@@ -92,10 +108,22 @@
               <p class="card-text">Rammstein</p>
               <p>Metal</p>
               <p>Duration: 46 minutes</p>
-              <a href="#" class="btn btn-primary">Review</a>
+              <p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseExample2"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Review
+                </button>
+              </p>
             </div>
           </div>
         </div>
+
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card mb-3">
             <img
@@ -108,10 +136,22 @@
               <p class="card-text">Rammstein</p>
               <p>Metal</p>
               <p>Duration: 45 minutes</p>
-              <a href="#" class="btn btn-primary">Review</a>
+              <p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseExample3"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Review
+                </button>
+              </p>
             </div>
           </div>
         </div>
+
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card mb-3">
             <img
@@ -124,15 +164,41 @@
               <p class="card-text">Rammstein</p>
               <p>Metal</p>
               <p>Duration: 50 minutes</p>
-              <a href="#" class="btn btn-primary">Review</a>
+              <p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseExample4"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Review
+                </button>
+              </p>
             </div>
           </div>
         </div>
       </div>
+      <div class="collapse" id="collapseExample1">
+        <div class="card card-body review_section">1</div>
+      </div>
+
+      <div class="collapse" id="collapseExample2">
+        <div class="card card-body review_section">2</div>
+      </div>
+
+      <div class="collapse" id="collapseExample3">
+        <div class="card card-body review_section">3</div>
+      </div>
+
+      <div class="collapse" id="collapseExample4">
+        <div class="card card-body review_section">4</div>
+      </div>
     </div>
 
     <div class="container my-5">
-      <h2>Hall of shame</h2>
+      <h2 id="hall_of_shame">Hall of shame</h2>
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card mb-3">
@@ -146,10 +212,22 @@
               <p class="card-text">Rammstein</p>
               <p>Metal</p>
               <p>Duration: 44 minutes</p>
-              <a href="#" class="btn btn-primary">Review</a>
+              <p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseExample5"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Review
+                </button>
+              </p>
             </div>
           </div>
         </div>
+
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card mb-3">
             <img
@@ -162,10 +240,22 @@
               <p class="card-text">Rammstein</p>
               <p>Metal</p>
               <p>Duration: 44 minutes</p>
-              <a href="#" class="btn btn-primary">Review</a>
+              <p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseExample6"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Review
+                </button>
+              </p>
             </div>
           </div>
         </div>
+
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card mb-3">
             <img
@@ -178,10 +268,22 @@
               <p class="card-text">Rammstein</p>
               <p>Metal</p>
               <p>Duration: 44 minutes</p>
-              <a href="#" class="btn btn-primary">Review</a>
+              <p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseExample7"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Review
+                </button>
+              </p>
             </div>
           </div>
         </div>
+
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="card mb-3">
             <img
@@ -194,11 +296,38 @@
               <p class="card-text">Rammstein</p>
               <p>Metal</p>
               <p>Duration: 44 minutes</p>
-              <a href="#" class="btn btn-primary">Review</a>
+              <p>
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseExample8"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Review
+                </button>
+              </p>
             </div>
           </div>
         </div>
       </div>
+      <div class="collapse" id="collapseExample5">
+        <div class="card card-body review_section">5</div>
+      </div>
+
+      <div class="collapse" id="collapseExample6">
+        <div class="card card-body review_section">6</div>
+      </div>
+
+      <div class="collapse" id="collapseExample7">
+        <div class="card card-body review_section">7</div>
+      </div>
+
+      <div class="collapse" id="collapseExample8">
+        <div class="card card-body review_section">8</div>
+      </div>
+    </div>
     </div>
 
     <script
